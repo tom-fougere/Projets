@@ -12,7 +12,7 @@ colorRetouch::colorRetouch(int H, int S, int V){
     _tf_initialHSV[SAT] = S;
     _tf_initialHSV[VAL] = V;
 }
-colorRetouch::colorRetouch(int HSV[]){
+colorRetouch::colorRetouch(float HSV[]){
     for(int i = 0 ; i<3 ; i++){
         _tf_initialHSV[i] = (float)HSV[i];
     }

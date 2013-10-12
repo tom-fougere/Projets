@@ -9,7 +9,7 @@ class colorRetouch
 public:
     colorRetouch();
     colorRetouch(int H, int S, int V);
-    colorRetouch(int HSV[]);
+    colorRetouch(float HSV[]);
 
     /// Attributs
     float _tf_initialHSV[3];
