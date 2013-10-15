@@ -24,9 +24,6 @@ public:
 
 
     /// Functions
-    void RGB_2_HSV(int R, int V, int B);
-    void RGB_2_HSV(int RGB[3]);
-
     void setHueLimits(int i_low, int i_high);
     void setChangedHSV(float H, float S, float V);
 

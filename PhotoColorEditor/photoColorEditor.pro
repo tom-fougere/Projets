@@ -15,11 +15,15 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     colorretouch.cpp \
-    ../../Tools/sources/colorOperation.cpp
+    ../../Tools/sources/colorOperation.cpp \
+    imagehsv.cpp \
+    ../Tools/sources/imageoperation.cpp
 
 HEADERS  += mainwindow.h \
     colorretouch.h \
-    ../../Tools/colorOperation.h
+    ../../Tools/colorOperation.h \
+    imagehsv.h \
+    ../Tools/imageoperation.h
 
 FORMS    += mainwindow.ui
 

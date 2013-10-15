@@ -8,7 +8,7 @@ using namespace std;
 class imageHSV
 {
 public:
-    imageHSV();
+    imageHSV(cv::Mat s_image);
 
     cv::Mat _s_hsv;
 };

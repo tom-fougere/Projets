@@ -18,14 +18,6 @@ colorRetouch::colorRetouch(float HSV[]){
     }
 }
 
-void colorRetouch::RGB_2_HSV(int R, int G, int B){
-    rgb2hsv(R, G, B, (int&)_tf_initialHSV[HUE], _tf_initialHSV[SAT], _tf_initialHSV[VAL]);
-}
-
-void colorRetouch::RGB_2_HSV(int RGB[]){
-    rgb2hsv(RGB, _tf_initialHSV);
-}
-
 void colorRetouch::setHueLimits(int i_low, int i_high){
     _ti_HueLimits[0] = i_low;
     _ti_HueLimits[1] = i_high;
